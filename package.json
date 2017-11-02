@@ -1,8 +1,7 @@
 {
   "name": "allthekeys",
   "version": "1.0.0",
-  "description":
-    "Flattens an array of nested objects into a flat list of keys with an optional delimiter",
+  "description": "Flattens an array of nested objects into a flat list of keys with an optional delimiter",
   "main": "index.js",
   "scripts": {
     "test": "mocha test"
@@ -13,7 +12,17 @@
     "flatjson": "^1.0.2"
   },
   "devDependencies": {
-    "chai": "^4.1.2",
     "mocha": "^4.0.1"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/freezer333/allthekeys.git"
+  },
+  "bugs": {
+    "url": "https://github.com/freezer333/allthekeys/issues"
+  },
+  "homepage": "https://github.com/freezer333/allthekeys#readme"
 }
