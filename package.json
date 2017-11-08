@@ -1,6 +1,6 @@
 {
   "name": "allthekeys",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description":
     "Flattens an array of nested objects into a flat list of keys with an optional delimiter",
   "main": "index.js",
