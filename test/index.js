@@ -29,7 +29,10 @@ describe("all they keys", function() {
   describe("default behavior", function() {
     it("should flatten and merge list of a nested objects", function() {
       var results = all(test, "-");
-      assert(results.length == 6, "Length is not as expected");
+      assert(results.length == 9, "Length is not as expected");
+      assert(results.indexOf("a") >= 0, "a-b missing in keys");
+      assert(results.indexOf("d") >= 0, "a-b missing in keys");
+      assert(results.indexOf("g") >= 0, "a-b missing in keys");
       assert(results.indexOf("a-b") >= 0, "a-b missing in keys");
       assert(results.indexOf("a-c") >= 0, "a-b missing in keys");
       assert(results.indexOf("d-e") >= 0, "a-b missing in keys");
