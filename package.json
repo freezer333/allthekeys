@@ -1,8 +1,7 @@
 {
   "name": "allthekeys",
-  "version": "1.0.2",
-  "description":
-    "Flattens an array of nested objects into a flat list of keys with an optional delimiter",
+  "version": "1.0.3",
+  "description": "Flattens an array of nested objects into a flat list of keys with an optional delimiter",
   "main": "index.js",
   "scripts": {
     "test": "mocha test"
@@ -10,7 +9,7 @@
   "author": "Scott Frees",
   "license": "MIT",
   "dependencies": {
-    "flatjson": "^1.0.4"
+    "flatjson": "^1.0.5"
   },
   "devDependencies": {
     "mocha": "^4.0.1"
